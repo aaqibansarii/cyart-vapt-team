@@ -16,10 +16,9 @@ The project demonstrates a full penetration testing lifecycle including reconnai
 
 ## Repository Structure
 
-
-Week 2/
 Repository Structure
 Introduction
+Week 2/
 │
 ├── 1_Vulnerability_Scanning/
 │ └── Vulnerability analysis using Nmap & OpenVAS
@@ -31,10 +30,10 @@ Introduction
 │ └── Exploitation using Metasploit (Tomcat, vsftpd)
 │
 ├── 4_Post_Exploitation/
-│ └── Evidence collection, hashing, system access validation
+│ └── Evidence collection, hashing, and system access validation
 │
 ├── 5_Capstone_Project/
-│ └── Full VAPT cycle (SQL Injection + Credential Extraction)
+│ └── Full VAPT cycle (SQL Injection & Credential Extraction)
 │
 ├── Screenshots/
 │ └── All supporting evidence and outputs
@@ -43,8 +42,7 @@ Introduction
 │ └── Final report submission
 │
 └── README.md
-└── Project documentation
-
+└── Project documentation and navigation guide
 
 ---
 
