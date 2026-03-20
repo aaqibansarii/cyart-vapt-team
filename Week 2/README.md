@@ -1,3 +1,130 @@
+# VAPT Project – Full Security Assessment (Week 2)
+
+This repository contains a complete **Vulnerability Assessment and Penetration Testing (VAPT)** project performed in a controlled lab environment.
+
+The project demonstrates a full penetration testing lifecycle including reconnaissance, scanning, exploitation, post-exploitation, and reporting.
+
+---
+
+## Project Overview
+
+- **Target Environment:** OWASP BWA / Metasploitable2  
+- **Tools Used:** Kali Linux, Nmap, OpenVAS, Metasploit, sqlmap, Maltego  
+- **Focus Areas:** Web Security, Network Security, Exploitation, Credential Attacks  
+
+---
+
+## Repository Structure
+
+
+Week 2/
+- Repository Structure
+- Introduction
+│
+├── 1_Vulnerability_Scanning/
+│ └── Vulnerability analysis using Nmap & OpenVAS
+│
+├── 2_Reconnaissance/
+│ └── OSINT, Subdomain Enumeration, Tech Stack Analysis
+│
+├── 3_Exploitation/
+│ └── Exploitation using Metasploit (Tomcat, vsftpd)
+│
+├── 4_Post_Exploitation/
+│ └── Evidence collection, hashing, system access validation
+│
+├── 5_Capstone_Project/
+│ └── Full VAPT cycle (SQL Injection + Credential Extraction)
+│
+├── Screenshots/
+│ └── All supporting evidence and outputs
+│
+├── VAPT 02.pdf
+│ └── Final report submission
+│
+└── README.md
+└── Project documentation
+
+
+---
+
+## Key Highlights
+
+- ✅ Vulnerability scanning using **Nmap & OpenVAS**  
+- ✅ Reconnaissance using **WHOIS, Sublist3r, Maltego, Wappalyzer**  
+- ✅ Exploitation of:
+  - vsftpd backdoor (RCE)
+  - Apache Tomcat (Meterpreter session)  
+- ✅ Post-exploitation:
+  - Root access verification  
+  - Evidence collection  
+  - SHA256 hashing for integrity  
+- ✅ SQL Injection exploitation using **sqlmap**
+- ✅ Database extraction and **password cracking**
+- ✅ Full PTES-based reporting  
+
+---
+
+## Capstone Achievement
+
+- SQL Injection successfully exploited on DVWA  
+- Database enumerated (`dvwa`)  
+- User credentials extracted and cracked  
+- Weak hashing (MD5) identified  
+- Full application compromise demonstrated  
+
+---
+
+## Screenshots
+
+All proof-of-concept and outputs are stored in:
+
+
+Week 2/Screenshots/
+
+
+Includes:
+- Nmap & OpenVAS results  
+- Exploitation proof  
+- SQLmap output  
+- Hash verification  
+- Recon tools output  
+
+---
+
+## Disclaimer
+
+This project was conducted in a **controlled lab environment** for educational purposes only.  
+All testing was performed on intentionally vulnerable systems with proper authorization.
+
+---
+
+## Author
+
+**Mohd Aaqib**  
+Cybersecurity Student | Ethical Hacking Enthusiast  
+
+---
+
+## Learning Outcomes
+
+- Understanding of full VAPT lifecycle  
+- Hands-on exploitation of real vulnerabilities  
+- Practical experience with industry tools  
+- Ability to document and report security findings professionally  
+
+---
+
+## Final Note
+
+This project demonstrates real-world penetration testing skills and follows structured methodologie
+
+
+
+----
+----
+# Introduction
+---
 # Penetration Testing Techniques
 
 ### What is Penetration Testing?
