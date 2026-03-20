@@ -18,8 +18,8 @@ The project demonstrates a full penetration testing lifecycle including reconnai
 
 
 Week 2/
-- Repository Structure
-- Introduction
+Repository Structure
+Introduction
 │
 ├── 1_Vulnerability_Scanning/
 │ └── Vulnerability analysis using Nmap & OpenVAS
