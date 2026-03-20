@@ -16,34 +16,35 @@ The project demonstrates a full penetration testing lifecycle including reconnai
 
 ## Repository Structure
 
-Repository Structure
-Introduction
+- Repository Structure
+
+- Introduction
 ```
-Week 2/
-│
-├── 1_Vulnerability_Scanning/
-│ └── Vulnerability analysis using Nmap & OpenVAS
-│
-├── 2_Reconnaissance/
-│ └── OSINT, Subdomain Enumeration, Tech Stack Analysis
-│
-├── 3_Exploitation/
-│ └── Exploitation using Metasploit (Tomcat, vsftpd)
-│
-├── 4_Post_Exploitation/
-│ └── Evidence collection, hashing, and system access validation
-│
-├── 5_Capstone_Project/
-│ └── Full VAPT cycle (SQL Injection & Credential Extraction)
-│
-├── Screenshots/
-│ └── All supporting evidence and outputs
-│
-├── VAPT 02.pdf
-│ └── Final report submission
-│
-└── README.md
-└── Project documentation and navigation guide
+- Week 2/
+  │
+  ├── 1_Vulnerability_Scanning/
+  │ └── Vulnerability analysis using Nmap & OpenVAS
+  │
+  ├── 2_Reconnaissance/
+  │ └── OSINT, Subdomain Enumeration, Tech Stack Analysis
+  │
+  ├── 3_Exploitation/
+  │ └── Exploitation using Metasploit (Tomcat, vsftpd)
+  │
+  ├── 4_Post_Exploitation/
+  │ └── Evidence collection, hashing, and system access validation
+  │
+  ├── 5_Capstone_Project/
+  │ └── Full VAPT cycle (SQL Injection & Credential Extraction)
+  │
+  ├── Screenshots/
+  │ └── All supporting evidence and outputs
+  │
+  ├── VAPT 02.pdf
+  │ └── Final report submission
+  │
+  └── README.md
+  └── Project documentation and navigation guide
 ```
 
 ---
