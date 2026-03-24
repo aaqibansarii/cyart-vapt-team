@@ -12,6 +12,18 @@ This week focuses on advanced exploitation techniques including exploit chaining
 
 ## Structure
 
+```
+Week 3/
+    ├── 1_Advanced_Exploitation/
+    ├── 2_Web_Testing/
+    ├── 3_Reporting/
+    ├── 4_Post_Exploitation/
+    ├── 5_Capstone_Project/
+    ├── Screenshots/
+    ├── Documentation/
+    └── README.md
+```
+
 ### 1. Theoretical
 - Advanced Exploitation
 - Web Application Pentesting
