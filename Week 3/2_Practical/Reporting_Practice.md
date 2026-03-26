@@ -173,6 +173,8 @@ A chained attack combining XSS, session hijacking, and service exploitation (vsf
 
 ---
 
+## **Attack Path Visualization**
+
 ```mermaid
 graph TD
     A[Attacker] -->|XSS Injection| B[Web Application]
