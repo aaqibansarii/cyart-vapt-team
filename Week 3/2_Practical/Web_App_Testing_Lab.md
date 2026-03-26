@@ -123,7 +123,7 @@ sqlmap -u "http://192.168.198.130/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit"
   `http://192.168.198.130/dvwa/vulnerabilities/xss_r/`
 
 <p align="center">
-  <img src="./Screenshots/xss_payload.png.pmg" width="700"/><br/>
+  <img src="./Screenshots/xss_payload.png.png" width="700"/><br/>
   <b>XSS payload injected into input field</b>
 </p>
 
