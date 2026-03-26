@@ -17,7 +17,7 @@ http://192.168.198.130/dvwa
 ```
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/dvwa_dashboard.png" width="800"/><br/>
+  <img src="./Screenshots/dvwa_dashboard.png.png" width="800"/><br/>
   <b>DVWA Dashboard showing authenticated session</b>
 </p>
 
@@ -49,7 +49,7 @@ Tools Used:
 * Parameter tested: `id`
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/sqli_input_point.png" width="800"/><br/>
+  <img src="./Screenshots/sqli_input_point.png" width="800"/><br/>
   <b>SQL Injection input field identified in DVWA</b>
 </p>
 
@@ -72,7 +72,7 @@ Tools Used:
 ---
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/sqli_injection.png" width="800"/><br/>
+  <img src="./Screenshots/sqli_injection.png" width="800"/><br/>
   <b>SQL Injection returning multiple database records</b>
 </p>
 
@@ -87,7 +87,7 @@ Inspect > Storage > Cookies > PHPSESSID
 ```
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/sqli_session_id.png" width="800"/><br/>
+  <img src="./Screenshots/sqli_session_id.png" width="800"/><br/>
   <b>Session ID extracted from browser storage</b>
 </p>
 
@@ -100,7 +100,7 @@ sqlmap -u "http://192.168.198.130/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit"
 ```
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/sqlmap_injection.png" width="800"/><br/>
+  <img src="./Screenshots/sqlmap_injection.png" width="800"/><br/>
   <b>sqlmap successfully enumerating database information</b>
 </p>
 
@@ -123,7 +123,7 @@ sqlmap -u "http://192.168.198.130/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit"
   `http://192.168.198.130/dvwa/vulnerabilities/xss_r/`
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/xss_payload.png" width="700"/><br/>
+  <img src="./Screenshots/xss_payload.png" width="700"/><br/>
   <b>XSS payload injected into input field</b>
 </p>
 
@@ -136,7 +136,7 @@ sqlmap -u "http://192.168.198.130/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit"
 ```
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/xss_alert.png" width="500"/><br/>
+  <img src="./Screenshots/xss_alert.png" width="500"/><br/>
   <b>Reflected XSS payload executed in browser</b>
 </p>
 
@@ -159,7 +159,7 @@ sqlmap -u "http://192.168.198.130/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit"
 * Captured HTTP request
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/burp_intercept.png" width="800"/><br/>
+  <img src="./Screenshots/burp_intercept.png" width="800"/><br/>
   <b>Burp Suite intercepting HTTP request</b>
 </p>
 
@@ -170,7 +170,7 @@ sqlmap -u "http://192.168.198.130/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit"
 **Original Request**
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/burp_sqli_request.png" width="800"/><br/>
+  <img src="./Screenshots/burp_sqli_request.png" width="800"/><br/>
   <b>Original SQL request captured in Burp</b>
 </p>
 
@@ -185,7 +185,7 @@ Cookie: PHPSESSID=32d4eae368b201a9cbe21c3576fe4dad; security=low
 ```
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/burp_sqli_modified.png" width="800"/><br/>
+  <img src="./Screenshots/burp_sqli_modified.png" width="800"/><br/>
   <b>Modified request with SQL injection payload</b>
 </p>
 
@@ -199,7 +199,7 @@ Send the modified request to the server
 * Vulnerability confirmed
 
 <p align="center">
-  <img src="./Screenshots/Web_Testing/modified_sqli_accepted.png" width="800"/><br/>
+  <img src="./Screenshots/modified_sqli_accepted.png" width="800"/><br/>
   <b>Server response confirming SQL Injection success</b>
 </p>
 
