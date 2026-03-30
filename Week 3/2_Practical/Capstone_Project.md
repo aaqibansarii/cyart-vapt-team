@@ -46,7 +46,7 @@ netdiscover
 This will discover all the machines present on the kali linux network
 
 <p align="center">
-  <img src="./Screenshots/Capstone/netdiscover.png" width="800"/><br/>
+  <img src="./Screenshots/netdiscover.png" width="800"/><br/>
   <b>Network discovery showing available hosts</b>
 </p>
 
@@ -58,7 +58,7 @@ ping 192.168.198.133
 ```
 
 <p align="center">
-  <img src="./Screenshots/Capstone/ping_kioptrix.png" width="800"/><br/>
+  <img src="./Screenshots/ping_kioptrix.png" width="800"/><br/>
   <b>Ping verification confirming target is reachable</b>
 </p>
 
@@ -73,7 +73,7 @@ nmap -sS -sV -p- 192.168.198.133
 ```
 
 <p align="center">
-  <img src="./Screenshots/Capstone/nmap_kioptrix.png" width="800"/><br/>
+  <img src="./Screenshots/nmap_kioptrix.png" width="800"/><br/>
   <b>Nmap scan results showing exposed services on Kioptrix</b>
 </p>
 
@@ -183,7 +183,7 @@ The target system was scanned using OpenVAS to identify known vulnerabilities ac
 - Scan Type: Full and Fast
     
 <p align="center">
-  <img src="./Screenshots/Capstone/kioptrix_openvas_scan.png" width="800"/><br/>
+  <img src="./Screenshots/kioptrix_openvas_scan.png" width="800"/><br/>
   <b>OpenVAS scan results showing detected vulnerabilities on Kioptrix target</b>
 </p>
 
@@ -215,7 +215,7 @@ Based on service versions identified during reconnaissance:
     - OpenSSL/mod_ssl exploit (Remote Code Execution)
         
 <p align="center">
-  <img src="./Screenshots/Capstone/open_ssl_exploitDB.png" width="800"/><br/>
+  <img src="./Screenshots/open_ssl_exploitDB.png" width="800"/><br/>
   <b>Exploit-DB results for OpenSSL vulnerability</b>
 </p>
 
@@ -232,7 +232,7 @@ Based on service versions identified during reconnaissance:
     - Possible remote exploitation
         
 <p align="center">
-  <img src="./Screenshots/Capstone/samba_exploitDB.png" width="800"/><br/>
+  <img src="./Screenshots/samba_exploitDB.png" width="800"/><br/>
   <b>Exploit-DB results for Samba vulnerability</b>
 </p>
 
@@ -249,7 +249,7 @@ Based on service versions identified during reconnaissance:
     - Brute-force possibility
 
 <p align="center">
-  <img src="./Screenshots/Capstone/openssh_exploitDB.png" width="800"/><br/>
+  <img src="./Screenshots/openssh_exploitDB.png" width="800"/><br/>
   <b>Exploit-DB results for OpenSSH vulnerabilities</b>
 </p>
 
@@ -328,7 +328,7 @@ search samba
 ```
 
 <p align="center">
-  <img src="./Screenshots/Capstone/samba_exploit_search.png" width="800"/><br/>
+  <img src="./Screenshots/samba_exploit_search.png" width="800"/><br/>
   <b>Metasploit search results for Samba exploit</b>
 </p>
 
@@ -345,7 +345,7 @@ exploit
 ```
 
 <p align="center">
-  <img src="./Screenshots/Capstone/samba_module.png" width="800"/><br/>
+  <img src="./Screenshots/samba_module.png" width="800"/><br/>
   <b>Metasploit module configuration for Samba exploit</b>
 </p>
 
@@ -357,7 +357,7 @@ exploit
 After running the exploit module
 
 <p align="center">
-  <img src="./Screenshots/Capstone/cmd_session_opened.png" width="800"/><br/>
+  <img src="./Screenshots/cmd_session_opened.png" width="800"/><br/>
   <b>Command shell session opened after successful exploitation</b>
 </p>
 
@@ -371,7 +371,7 @@ id
 
 
 <p align="center">
-  <img src="./Screenshots/Capstone/access_verification.png" width="800"/><br/>
+  <img src="./Screenshots/access_verification.png" width="800"/><br/>
   <b>Verification of root access using whoami and id commands</b>
 </p>
 
@@ -448,7 +448,7 @@ Linux kioptrix 2.4.x #1 SMP
 ```
 
 <p align="center">
-  <img src="./Screenshots/Capstone/system_enumeration.png" width="800"/><br/>
+  <img src="./Screenshots/system_enumeration.png" width="800"/><br/>
   <b>System enumeration confirming root privileges</b>
 </p>
 
@@ -461,7 +461,7 @@ cat /etc/passwd
 ```
 
 <p align="center">
-  <img src="./Screenshots/Capstone/sensitive_file_access.png" width="800"/><br/>
+  <img src="./Screenshots/sensitive_file_access.png" width="800"/><br/>
   <b>Accessing sensitive system file /etc/passwd</b>
 </p>
 
