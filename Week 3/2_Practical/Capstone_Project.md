@@ -215,7 +215,7 @@ Based on service versions identified during reconnaissance:
     - OpenSSL/mod_ssl exploit (Remote Code Execution)
         
 <p align="center">
-  <img src="./Screenshots/open_ssl_exploitDB.png" width="800"/><br/>
+  <img src="./Screenshots/openssl_exploitDB.png" width="800"/><br/>
   <b>Exploit-DB results for OpenSSL vulnerability</b>
 </p>
 
