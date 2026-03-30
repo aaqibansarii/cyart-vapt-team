@@ -26,11 +26,7 @@ Week 3/
 │   ├── Reporting_Practice.md           # Findings, CVSS, reports
 │   ├── Post_Exploitation.md            # Privilege escalation, evidence
 │   └── Capstone_Project.md             # Full VAPT cycle
-├── Screenshots/
-│   ├── Exploitation/
-│   ├── Web_Testing/
-│   ├── Post_Exploitation/
-│   └── Capstone/
+├── Screenshots/                        # All the screehshots are present here
 ├── VAPT_03.pdf                        # Final report
 └── README.md                          # Overview
 ```
