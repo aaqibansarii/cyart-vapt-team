@@ -116,6 +116,7 @@ whoami /priv | findstr SeImpersonatePrivilege                   # PrintSpoofer/J
 - **Windows**: SeImpersonatePrivilege enabled, unquoted service paths, AlwaysInstallElevated=1
 
 **Pro Tip**: Run **both** automated (LinPEAS/WinPEAS) + manual enumeration. Cross-reference findings for chaining opportunities. [github](https://github.com/rizemon/OSCP-PWK-Notes/blob/main/windowsprivesc.md)
+
 ---
 
 ## Linux Privilege Escalation Techniques
