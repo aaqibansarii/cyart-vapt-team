@@ -77,8 +77,8 @@ Password: peter
 * Access the modified URL
 
 <p align="center">
-  <b>Figure 6: Original Transcript Request (User Wiener)</b><br>
-  <img src="Screenshots/transcript_request.png" width="700">
+  <b>Figure: Original Transcript Request (User Wiener)</b><br>
+  <img src="Screenshots/burp_http_history.png" width="700">
 </p>
 ---
 
@@ -88,8 +88,8 @@ Password: peter
 * The transcript contains sensitive information, including login credentials
 
 <p align="center">
-  <b>Figure 7: BOLA Exploitation - Unauthorized Transcript Access</b><br>
-  <img src="Screenshots/bola_exploit.png" width="700">
+  <img src="Screenshots/bola_exploit.png" width="700"><br>
+  <b>Figure: BOLA Exploitation - Unauthorized Transcript Access</b>
 </p>
 
 ---
@@ -101,15 +101,15 @@ Password: peter
 * Successfully gain unauthorized access
 
 <p align="center">
-  <b>Figure 8: Unauthorized Login Using Stolen Credentials</b><br>
-  <img src="Screenshots/carlos_login.png" width="700">
+  <img src="Screenshots/carlos_login.png" width="700"><br>
+ <b>Figure: Unauthorized Login Using Stolen Credentials</b>
 </p>
 
 LAB SOLVED
 
 <p align="center">
-  <b>Figure 9: Successful Lab Completion</b><br>
-  <img src="Screenshots/carlos_login_success.png" width="700">
+  <img src="Screenshots/carlos_login_success.png" width="700"><br>
+  <b>Figure: Successful Lab Completion</b>
 </p>
 
 ---
