@@ -77,8 +77,8 @@ Password: peter
 * Access the modified URL
 
 <p align="center">
-  <b>Figure: Original Transcript Request (User Wiener)</b><br>
-  <img src="Screenshots/burp_http_history.png" width="700">
+  <img src="Screenshots/burp_http_history.png" width="700"><br>
+  <b>Figure: Original Transcript Request (User Wiener)</b>
 </p>
 ---
 
