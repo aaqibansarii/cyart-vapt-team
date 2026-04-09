@@ -32,8 +32,8 @@ The objective of this lab is to test API endpoints for vulnerabilities such as B
   *(Note: IDOR is another name for BOLA)*
 
 <p align="center">
-  <b>Figure 4: PortSwigger IDOR Lab Interface</b><br>
-  <img src="Screenshots/idor_lab_page.png" width="700">
+  <img src="Screenshots/idor_lab_page.png" width="700"><br>
+  <b>Figure: PortSwigger IDOR Lab Interface</b>
 </p>
 
 ---
@@ -49,12 +49,18 @@ Password: peter
 ```
 
 * After logging in, go to the **Live Chat** section
+
+<p align="center">
+  <img src="Screenshots/live_chat_page.png" width="700"><br>
+  <b>Figure: Live Chat Interface Before Exploitation</b>
+</p>
+
 * Send a message and click on **View Transcript**
 * Observe the URL of the transcript
 
 <p align="center">
-  <b>Figure 5: Burp Suite HTTP History Capturing Requests</b><br>
-  <img src="Screenshots/burp_http_history.png" width="700">
+  <img src="Screenshots/burp_http_history.png" width="700"><br>
+  <b>Figure: Burp Suite HTTP History Capturing Requests</b>
 </p>
 
 ---
