@@ -80,6 +80,7 @@ Password: peter
   <img src="Screenshots/burp_http_history.png" width="700"><br>
   <b>Figure: Original Transcript Request (User Wiener)</b>
 </p>
+
 ---
 
 ### 4. Exploitation
