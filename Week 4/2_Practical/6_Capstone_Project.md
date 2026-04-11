@@ -13,7 +13,7 @@ To simulate a complete Vulnerability Assessment and Penetration Testing (VAPT) e
 
 **Attacker Machine:** Kali Linux (192.168.198.128)  
 **Target 1:** Metasploitable2 (192.168.198.130)  
-**Target 2:** OWASP BWA (192.168.198.131)  
+**Target 2:** PortSwigger Lab 
 
 **Tools Used:** Metasploit, Nmap, Burp Suite, OpenVAS  
 
@@ -77,7 +77,7 @@ run
 
 ---
 
-## Phase 4: Web/API Testing (OWASP BWA)
+## Phase 4: Web/API Testing (PortSwigger Lab)
 
 ### Burp Suite Testing
 
